@@ -89,46 +89,50 @@ body {
 
 /* Skills Section */
 #skills {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: rgba(215, 204, 200, 0.9); /* Light mocha */
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
-#skills h2, #skills h3 {
+#skills h2 {
     color: #3e2723; /* Dark brown */
     text-transform: uppercase;
     margin-bottom: 10px;
     text-align: left;
     letter-spacing: 1px;
     font-weight: bold;
-    border-bottom: 2px solid #3e2723; 
+    border-bottom: 2px solid #3e2723; /* Underline */
+}
+
+#skills h3 {
+    color: #6d4c41; /* Light brown */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    border-bottom: none; /* Removed underline */
 }
 
 .skills-container {
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping to the next line if needed */
-    gap: 10px; /* Space between skill pills */
-    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .pill {
-    display: inline-block;
-    background-color: #6d4c41; /* Soft brown */
-    color: #ffffff; /* White text */
-    padding: 10px 20px;
-    border-radius: 25px; /* Pill shape */
+    background-color: #d7ccc8; /* Light mocha */
+    color: #3e2723; /* Dark brown text */
+    padding: 10px 15px;
+    border-radius: 50px;
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: bold;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s, transform 0.2s;
+    border: 1px solid #3e2723; /* Outline matching text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    white-space: nowrap;
+    transition: none; /* Disable scaling effect */
 }
 
 .pill:hover {
-    background-color: #5d4037; /* Darker brown */
-    transform: scale(1.05); /* Slight enlarge effect */
+    background-color: #d7ccc8; /* No hover effect */
 }
 
 /* Bubbles for Project and Contact Sections */
