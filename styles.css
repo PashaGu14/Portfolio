@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    color: #4e342e; /* Rich brown for primary text */
+    color: #4e342e; /* soft brown for primary text */
     line-height: 1.6;
 }
 
@@ -99,12 +99,12 @@ a:hover {
 }
 
 .card p {
-    color: #4e342e; /* Rich brown for descriptions */
+    color: #4e342e; /* soft brown for descriptions */
 }
 
 /* Footer */
 footer {
-    background-color: #3e2723; /* Dark brown */
+    background-color: #3e2723; /* medium brown */
     color: #ffffff;
     text-align: center;
     padding: 10px 0;
