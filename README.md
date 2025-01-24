@@ -1,6 +1,6 @@
 <h1>Pasha M's Portfolio</h1> 
 
-<body>
+ <body>
     <header>
         <h1>Analyst</h1>
         <p>Welcome to my personal site, here you will find my professional summary and projects I have developed in my coursework and throughout my career.</p>
