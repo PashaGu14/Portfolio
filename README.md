@@ -1,4 +1,4 @@
-<h1>Pasha M's Portfolio</h1> 
+<h1>Pasha Mulenga</h1> 
 
  <body>
     <header>
