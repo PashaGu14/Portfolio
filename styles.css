@@ -86,6 +86,49 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* Skills Section */
+#skills {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(215, 204, 200, 0.9); /* Light mocha */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2, #skills h3 {
+    color: #3e2723; /* Dark brown */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-bottom: 2px solid #3e2723; /* Underline */
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line if needed */
+    gap: 10px; /* Space between skill pills */
+    margin-top: 10px;
+}
+
+.pill {
+    display: inline-block;
+    background-color: #6d4c41; /* Soft brown */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    border-radius: 25px; /* Pill shape */
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.pill:hover {
+    background-color: #5d4037; /* Darker brown */
+    transform: scale(1.05); /* Slight enlarge effect */
+}
 
 /* Bubbles for Project and Contact Sections */
 .bubble {
