@@ -203,8 +203,8 @@ footer a:hover {
 
 /* Thumbnail styling for contact section */
 .contact-thumbnail {
-    width: 40px; /* Adjust to your preferred size */
-    height: 40px;
+    width: 60px; /* Adjust to your preferred size */
+    height: 60px;
     margin: 10px; /* Space between thumbnails */
     transition: transform 0.3s ease-in-out;
 }
