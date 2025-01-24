@@ -1,10 +1,11 @@
- # Portfolio
+ # Pasha M's Portfolio
 
 </head>
 <body>
     <header>
-        <h1>Pasha's Portfolio</h1>
-        <p>Welcome to my personal site!</p>
+        <h1>Analyst</h1>
+        <p>Welcome to my personal site, here you will find my professional summary and projects I have developed in my coursework and throughout my career.</p>
+     <img src="https://github.com/PashaGu14/My-Site/blob/main/IMG_3505.jpg" alt="Pasha's Portrait" width="250" height="250">
     </header>
     <nav>
         <a href="#about">About Me</a>
@@ -15,7 +16,7 @@
     </nav>
     <section id="about">
         <h2>About Me:</h2>
-        <p> My name is Pasha and I am a dynamic and results-driven Business Analyst with a strong foundation in data analytics, strategic planning, and process optimization. Skilled in SQL, Tableau, Python, and Power BI, with demonstrated success in developing automated reporting tools, creating actionable dashboards, and collaborating across cross-functional teams to achieve organizational objectives.Currently pursuing a Master of Science in Business Analytics at Georgetown University, with a passion for empowering organizations to make informed, strategic decisions. </p>
+    <p> My name is Pasha and I am a dynamic and results-driven Business Analyst with a strong foundation in data analytics, strategic planning, and process optimization. Skilled in SQL, Tableau, Python, and Power BI, with demonstrated success in developing automated reporting tools, creating actionable dashboards, and collaborating across cross-functional teams to achieve organizational objectives.Currently pursuing a Master of Science in Business Analytics at Georgetown University, with a passion for empowering organizations to make informed, strategic decisions. </p>
     </section>
      <section id="education">
     <h2>Education:</h2>
