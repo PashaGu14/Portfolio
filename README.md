@@ -5,8 +5,8 @@
     <header>
         <h1>Analyst</h1>
         <p>Welcome to my personal site, here you will find my professional summary and projects I have developed in my coursework and throughout my career.</p>
-    <img src="https://raw.githubusercontent.com/PashaGu14/My-Site/main/IMG_3505.jpg" alt="Pasha's Portrait" width="300" height="300">
-    </header>
+ <img src="https://raw.githubusercontent.com/PashaGu14/My-Site/main/IMG_3505.jpg" alt="Pasha's Portrait" width="300" height="300">
+   </header>
     <nav>
         <a href="#about">About Me</a>
         <a href="#projects">Projects</a>
