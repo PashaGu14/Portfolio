@@ -1,5 +1,5 @@
 <h1>Pasha M's Portfolio</h1> 
-</head>
+
 <body>
     <header>
         <h1>Analyst</h1>
