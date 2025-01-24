@@ -1,18 +1,134 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+/* styles.css */
+
+/* General Reset */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(rrt9.jpg); /* Replace with your actual path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #4e342e; /* Rich brown for primary text */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: rgba(62, 39, 35, 0.9); /* Semi-transparent dark brown */
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
-    color: #0073e6;
-    text-align: center;
-    margin-top: 50px;
+    color: #ffffff;
+    font-size: 1.8rem;
 }
 
-p {
+header nav a {
+    color: #d7ccc8; /* Light mocha */
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #ffab91; /* Accent color */
+}
+
+/* Section Titles */
+section h2 {
+    color: #3e2723; /* Dark brown */
+    text-transform: uppercase;
+    margin-bottom: 10px;
     text-align: center;
-    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #795548; /* Medium brown */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+button:hover, .btn:hover {
+    background-color: #5d4037; /* Darker brown */
+}
+
+/* Links */
+a {
+    color: #6d4c41; /* Soft brown */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #3e2723; /* Dark brown */
+    text-decoration: underline;
+}
+
+/* Portfolio Cards */
+.card {
+    background-color: rgba(215, 204, 200, 0.9); /* Light mocha with transparency */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card h3 {
+    color: #3e2723; /* Dark brown */
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.card p {
+    color: #4e342e; /* Rich brown for descriptions */
+}
+
+/* Footer */
+footer {
+    background-color: #3e2723; /* Dark brown */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffab91; /* Accent */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header nav a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+
+    .card {
+        margin: 15px;
+        padding: 15px;
+    }
 }
