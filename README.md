@@ -5,7 +5,7 @@
     <header>
         <h1>Analyst</h1>
         <p>Welcome to my personal site, here you will find my professional summary and projects I have developed in my coursework and throughout my career.</p>
-     <img src="https://github.com/PashaGu14/My-Site/blob/main/IMG_3505.jpg" alt="Pasha's Portrait" width="250" height="250">
+     <img src="https://github.com/PashaGu14/My-Site/blob/main/IMG_3505.jpg" alt="Pasha's Portrait" width="300" height="300">
     </header>
     <nav>
         <a href="#about">About Me</a>
@@ -20,7 +20,7 @@
     </section>
      <section id="education">
     <h2>Education:</h2>
-    Georgetown University, McDonough School of Business
+Georgetown University, McDonough School of Business
 Master of Business Analytics | December 2025 | Washington, DC
  </section>
 University of Irvine, College of Business
