@@ -3,83 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>Pasha's Portfolio</title>
     <!-- Link to your custom CSS file -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container text-center mt-5">
-        <h1 class="text-primary">Welcome to my Portfolio</h1>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <img src="https://raw.githubusercontent.com/PashaGu14/My-Site/main/IMG_3505.jpg" 
+             alt="Pasha's Portrait" 
+             width="150" 
+             height="150" 
+             style="border-radius: 50%; border: 3px solid #d7ccc8;">
+        <h1>Pasha Mulenga</h1>
+        <h2>Analyst</h2>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </div>
 
-    <h1>Pasha Mulenga</h1>
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Welcome Header -->
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+            <p>Explore my professional journey, projects, and skills. Discover my passion for data-driven solutions and collaboration.</p>
+        </header>
 
-    <header>
-        <h1>Analyst</h1>
-        <p>Welcome to my personal site. Here, you will find my professional summary and projects I have developed in my coursework and throughout my career.</p>
-        <img src="https://raw.githubusercontent.com/PashaGu14/My-Site/main/IMG_3505.jpg" alt="Pasha's Portrait" width="300" height="300">
-    </header>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Pasha, and I am a dynamic and results-driven Business Analyst with a strong foundation in data analytics, strategic planning, and process optimization. Skilled in SQL, Tableau, Python, and Power BI, I have demonstrated success in developing automated reporting tools, creating actionable dashboards, and collaborating across cross-functional teams to achieve organizational objectives. Currently pursuing a Master of Science in Business Analytics at Georgetown University, I am passionate about empowering organizations to make informed, strategic decisions.</p>
+        </section>
 
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <!-- Columns Layout -->
+        <div class="columns">
+            <!-- Projects Section -->
+            <div class="column" id="projects">
+                <h2>My Projects</h2>
+                <ul>
+                    <li>
+                        <a href="https://pashalinkedinapp-jrgvffjmxeafppbccguxln.streamlit.app" target="_blank">LinkedIn Streamlit App</a>
+                        <p><strong>Summary:</strong> This LinkedIn app predicts user engagement based on historical data and other relevant features. Using Python-based methodologies, the app makes predictions on user activity, helping business professionals understand app engagement patterns.</p>
+                    </li>
+                </ul>
+            </div>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>My name is Pasha, and I am a dynamic and results-driven Business Analyst with a strong foundation in data analytics, strategic planning, and process optimization. Skilled in SQL, Tableau, Python, and Power BI, I have demonstrated success in developing automated reporting tools, creating actionable dashboards, and collaborating across cross-functional teams to achieve organizational objectives. Currently pursuing a Master of Science in Business Analytics at Georgetown University, I am passionate about empowering organizations to make informed, strategic decisions.</p>
-    </section>
-
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>Georgetown University, McDonough School of Business</strong><br>
-        Master of Business Analytics | December 2025 | Washington, DC</p>
-        <p><strong>University of California, Irvine, College of Business</strong><br>
-        Bachelor of Arts in Business Administration | May 2019 | Irvine, CA</p>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <h3>Programming Languages</h3>
-        <div class="skills-container">
-            <div class="pill">Python</div>
-            <div class="pill">SQL</div>
-            <div class="pill">Tableau</div>
-            <div class="pill">Power BI</div>
-            <div class="pill">R</div>
-            <div class="pill">Microsoft Excel</div>
+            <!-- Contact Section -->
+            <div class="column" id="contact">
+                <h2>Contact Me</h2>
+                <p><strong>Email:</strong> <a href="mailto:Chipasha_mulenga@yahoo.com">Chipasha_mulenga@yahoo.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pasha-m" target="_blank">www.linkedin.com/in/pasha-m</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/pashaGu14" target="_blank">PashaGu14</a></p>
+            </div>
         </div>
-        <h3>Business Skills</h3>
-        <div class="skills-container">
-            <div class="pill">Risk Assessment & Mitigation</div>
-            <div class="pill">Process Optimization</div>
-            <div class="pill">Stakeholder Collaboration</div>
-            <div class="pill">Agile Methodologies</div>
-        </div>
-    </section>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <ul>
-            <li>
-                <a href="https://pashalinkedinapp-jrgvffjmxeafppbccguxln.streamlit.app" target="_blank">LinkedIn Streamlit App</a>
-                <p><strong>Summary:</strong> This LinkedIn app predicts user engagement based on historical data and other relevant features. Using Python-based methodologies, the app makes predictions on user activity, helping business professionals understand app engagement patterns.</p>
-            </li>
-        </ul>
-    </section>
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>Georgetown University, McDonough School of Business</strong><br>
+                Master of Business Analytics | December 2025 | Washington, DC</p>
+            <p><strong>University of California, Irvine, College of Business</strong><br>
+                Bachelor of Arts in Business Administration | May 2019 | Irvine, CA</p>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p><strong>Email:</strong> <a href="mailto:Chipasha_mulenga@yahoo.com">Chipasha_mulenga@yahoo.com</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pasha-m" target="_blank">www.linkedin.com/in/pasha-m</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/pashaGu14" target="_blank">PashaGu14</a></p>
-    </section>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <h3>Programming Languages</h3>
+            <div class="skills-container">
+                <div class="pill">Python</div>
+                <div class="pill">SQL</div>
+                <div class="pill">Tableau</div>
+                <div class="pill">Power BI</div>
+                <div class="pill">R</div>
+                <div class="pill">Microsoft Excel</div>
+            </div>
+            <h3>Business Skills</h3>
+            <div class="skills-container">
+                <div class="pill">Risk Assessment & Mitigation</div>
+                <div class="pill">Process Optimization</div>
+                <div class="pill">Stakeholder Collaboration</div>
+                <div class="pill">Agile Methodologies</div>
+            </div>
+        </section>
+    </div>
 
+    <!-- Footer -->
     <footer>
         <p>&copy; 2025 Pasha</p>
     </footer>
 </body>
 </html>
+
