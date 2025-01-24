@@ -27,16 +27,15 @@ body {
     color: #ffffff; /* White for sidebar text */
     text-align: center;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
-    position: fixed;
-    height: 100%;
 }
 
 .sidebar img {
-    width: 200px; /* Larger avatar */
-    height: 200px; /* Larger avatar */
-    border-radius: 30%;
-    margin-bottom: 30px; /* Moved slightly lower */
+    width: 120px; /* Increased size for avatar */
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
     border: 3px solid #d7ccc8; /* Light mocha border */
+    margin-top: 50px; /* Move slightly lower */
 }
 
 .sidebar h1 {
@@ -61,66 +60,30 @@ body {
 .main-content {
     flex: 1;
     padding: 20px;
-    margin-left: 270px; /* Account for the sidebar width */
 }
 
-/* Section Titles */
 .main-content section h2 {
-    color: #5a3921; /* Dark brown */
+    color: #3e2723; /* Dark brown */
     text-transform: uppercase;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: left; /* Align to the left */
     letter-spacing: 1px;
     font-weight: bold;
-    border-bottom: 2px solid #5a3921; /* Underlined section titles */
-}
-
-/* Skills Bubbles */
-.skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.pill {
-    background-color: #5a3921; /* Deep brown */
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-size: 14px;
-    text-align: center;
+    border-bottom: 2px solid #3e2723; /* Underline */
 }
 
 /* Project and Contact Columns */
 .columns {
     display: flex;
-    flex-direction: column; /* Stacked vertically on mobile */
     gap: 20px;
-    margin-top: 30px;
 }
 
 .column {
+    flex: 1;
     padding: 20px;
     background-color: rgba(215, 204, 200, 0.9); /* Light mocha with transparency */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.column a {
-    color: #6d4c41; /* Soft brown */
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Merged Contact Links */
-.column a[href^="mailto"] {
-    display: inline-block;
-    margin-bottom: 10px;
-}
-
-.column a[href^="https://"] {
-    display: inline-block;
-    margin-bottom: 10px;
 }
 
 /* Buttons */
@@ -178,12 +141,29 @@ footer a:hover {
 
     .sidebar {
         width: 100%;
-        position: relative; /* Sidebar no longer fixed */
     }
 
     .main-content {
-        margin-left: 0; /* Adjust for full-width layout */
         padding: 10px;
     }
 }
+
+/* Thumbnail styling for contact section */
+.contact-thumbnail {
+    width: 40px; /* Adjust to your preferred size */
+    height: 40px;
+    margin: 10px; /* Space between thumbnails */
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-thumbnail:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Contact Section Styling */
+#contact a {
+    display: inline-block;
+    margin: 10px 15px;
+}
+
 
