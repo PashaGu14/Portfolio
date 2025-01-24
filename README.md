@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
- <link rel="stylesheet" href="css/styles.css">
+ <link rel="stylesheet" href="css/stles.css">
 </head>
 <body>
     <div class="container text-center mt-5">
