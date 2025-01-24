@@ -76,6 +76,7 @@ body {
 .columns {
     display: flex;
     gap: 20px;
+    justify-content: space-between; /* Space the columns evenly */
 }
 
 .column {
@@ -83,6 +84,14 @@ body {
     padding: 20px;
     background-color: rgba(215, 204, 200, 0.9); /* Light mocha with transparency */
     border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Bubbles for Project and Contact Sections */
+.bubble {
+    background-color: #d7ccc8; /* Light mocha */
+    border-radius: 15px;
+    padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -158,12 +167,6 @@ footer a:hover {
 
 .contact-thumbnail:hover {
     transform: scale(1.1); /* Slightly enlarge on hover */
-}
-
-/* Contact Section Styling */
-#contact a {
-    display: inline-block;
-    margin: 10px 15px;
 }
 
 
