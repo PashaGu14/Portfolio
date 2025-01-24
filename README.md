@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1 class="text-primary">Welcome to My Portfolio</h1>
+    </div>
+
+
+</html>
 <h1>Pasha Mulenga</h1> 
 
  <body>
@@ -26,8 +38,21 @@ University of Irvine, College of Business
 Bachelors of Arts in Business Administration | May 2019 | Irvine, CA
      <section id="Skills">
     <h2>Skills:</h2>
-        Programming Languages: Python, SQL, Tableau, Power BI, Microsoft Excel, R
-        Business Skills: Risk Assessment & Mitigation, Process Optimization, Stakeholder Collaboration, Agile Methodologies, Reporting & Documentation
+         <h2>Programming Languages</h2>
+       <div class="skills-container">
+        <div class="pill python">Python</div>
+        <div class="pill sql">SQL</div>
+        <div class="pill tableau">Tableau</div>
+        <div class="pill power BI">Power BI</div>
+        <div class="pill r">R</div>
+         <div class="pill microsoftexcel">Microsoft Excel</div>
+         </div>
+          <h2>Business Skills</h2>
+        <div class="skills-container">
+        <div class="pill riskassessment & Mitigation">Risk Assessment & Mitigation</div>
+        <div class="pill processoptimization">Process Optimization</div>
+        <div class="pill Stakeholder Collaboration">Stakeholder Collaboration</div>
+        <div class="pill Agile Methodologies">Agile Methodologies</div>
      <section id="projects">
     <h2>My Projects</h2>
     <ul>
