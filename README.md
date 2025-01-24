@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
  <link rel="stylesheet" href="css/stles.css">
@@ -7,9 +7,6 @@
     <div class="container text-center mt-5">
         <h1 class="text-primary">Welcome to My Portfolio</h1>
     </div>
-
-
-</html>
 <h1>Pasha Mulenga</h1> 
 
  <body>
