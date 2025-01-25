@@ -64,8 +64,8 @@ body {
 }
 
 .contact-thumbnails a img {
-    width: 40px; /* Thumbnail size */
-    height: 40px;
+    width: 10px; /* Thumbnail size */
+    height: 10px;
     border-radius: 50%;
     border: 2px solid #ffffff; /* White border around thumbnails */
     transition: transform 0.3s, border-color 0.3s;
