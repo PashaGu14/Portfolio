@@ -30,12 +30,11 @@ body {
 }
 
 .sidebar img {
-    width: 200px; /* Increased size for avatar */
-    height: 200px;
+    width: 120px; /* Larger avatar */
+    height: 120px;
     border-radius: 50%;
     margin-bottom: 15px;
     border: 3px solid #d7ccc8; /* Light mocha border */
-    margin-top: 50px; /* Move slightly lower */
 }
 
 .sidebar h1 {
@@ -54,6 +53,27 @@ body {
 
 .sidebar nav a:hover {
     color: #ffab91; /* Accent color */
+}
+
+/* Contact Thumbnails */
+.contact-thumbnails {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact-thumbnails a img {
+    width: 40px; /* Thumbnail size */
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ffffff; /* White border around thumbnails */
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.contact-thumbnails a img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    border-color: #ffab91; /* Accent border on hover */
 }
 
 /* Main Content Styling */
@@ -203,18 +223,3 @@ footer a:hover {
     .main-content {
         padding: 10px;
     }
-}
-
-/* Thumbnail styling for contact section */
-.contact-thumbnail {
-    width: 60px; /* Adjust to your preferred size */
-    height: 60px;
-    margin: 10px; /* Space between thumbnails */
-    transition: transform 0.3s ease-in-out;
-}
-
-.contact-thumbnail:hover {
-    transform: scale(1.1); /* Slightly enlarge on hover */
-}
-
-
