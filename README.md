@@ -1,10 +1,10 @@
-Pasha Mulenga | Data & Business Analytics Portfolio
+#Pasha Mulenga | Data & Business Analytics Portfolio
 
 Business development, project management, and analytics professional focused on turning data into measurable business outcomes. I use SQL, Python, and Power BI to analyze performance, improve reporting systems, and support strategic decision-making across cross-functional teams.
 
 My work centers on performance analytics, program evaluation, operational efficiency, and data-driven planning.
 
-Core Tools
+##Core Tools
 
 Languages: SQL, Python
 
@@ -12,11 +12,11 @@ Visualization: Power BI, Tableau
 
 Analytics: Pandas, NumPy, Scikit-learn
 
-Project & Workflow: GitHub, Monday.com, Asana
+Project & Workflow: GitHub, Monday.com, Asana, Airtable
 
 Focus Areas: Development Economics, Trade, Program Evaluation, Performance Analytics
 
-Featured Projects
+##Featured Projects
 1. Narrative Intelligence & Influencer Identification
 
 Client-Sponsored Capstone | Penta Group
